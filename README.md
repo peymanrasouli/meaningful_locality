@@ -11,11 +11,11 @@ We recommend using the Anaconda Python 3.6 distribution for the required librari
 # Reproducing the results
 To reproduce the results of MeaningfulSampling method on LIME with:
 
-1. Linear Regression as interpretable model run:
+1- Linear Regression as interpretable model run:
 ```
 python test_lime_lr.py
 ```
-2. Decision Tree as interpretable model run:
+2- Decision Tree as interpretable model run:
 ```
 python test_lime_dt.py
 ```
