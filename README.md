@@ -6,7 +6,7 @@ Peyman Rasouli and Ingrid Chieh Yu, ["Meaningful Data Sampling for a Faithful Lo
 
 
 # Setup
-We recommend using the Anaconda Python 3.6 distribution for the required libraries. 
+We recommend using Anaconda Python 3.6 distribution for the required libraries. 
 
 # Reproducing the results
 To reproduce the results of MeaningfulSampling method on LIME with:
