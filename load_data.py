@@ -1,5 +1,6 @@
 import pickle
-from sklearn.preprocessing import Imputer
+import numpy as np
+from sklearn.impute import SimpleImputer
 from sklearn.datasets import load_breast_cancer
 
 def LoadData(dataset):
@@ -12,7 +13,7 @@ def LoadData(dataset):
         # Adult
         pickle_in = open('datasets/adult.pkl', "rb")
         data = pickle.load(pickle_in)
-        imp = Imputer(missing_values='NaN', strategy='mean', axis=0)
+        imp = SimpleImputer(missing_values=np.nan, strategy='mean')
         data['data'] = imp.fit_transform(data['data'])
         return data['data'], data['targets']
 

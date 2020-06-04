@@ -1,5 +1,5 @@
 from sklearn.ensemble import RandomForestClassifier
-from treeinterpreter import treeinterpreter as ti
+from treeinterpreter.treeinterpreter import treeinterpreter as ti
 from random_sampling import RandomSampling
 from quartile_discretizer import QuartileDiscretization
 from sturges_discretizer import SturgesDiscretization
@@ -31,6 +31,7 @@ def MeaningfulSampling(instance2explain, blackbox, training_data, N_samples):
     # Making a dense neighborhood w.r.t instance2explain
     dense_samples = SampleManipulation(prediction, random_samples, random_samples_dc, contributions_dc)
 
+    # Creating a sparse interpretable representation of data
     interpretable_dense_samples = InterpretableRepresentation(dense_samples)
 
     return interpretable_dense_samples, dense_samples
