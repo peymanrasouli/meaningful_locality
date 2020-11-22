@@ -1,4 +1,4 @@
-# MeaningfulSampling
+# FaithfulXAI
 
 This repository contains the implementation source code of the following paper:
 
@@ -7,23 +7,23 @@ Peyman Rasouli and Ingrid Chieh Yu, ["Meaningful Data Sampling for a Faithful Lo
 # Setup
 1- Clone the repository using HTTP/SSH:
 ```
-git clone https://github.com/peymanras/MeaningfulSampling
+git clone https://github.com/peymanras/FaithfulXAI
 ```
 2- Create a conda virtual environment:
 ```
-conda create -n MeaningfulSampling python=3.6
+conda create -n FaithfulXAI python=3.6
 ```
 3- Activate the conda environment: 
 ```
-conda activate MeaningfulSampling
+conda activate FaithfulXAI
 ```
-4- Standing in MeaningfulSampling directory, install the requirements:
+4- Standing in FaithfulXAI directory, install the requirements:
 ```
 pip install -r requirements.txt
 ```
 
 # Reproducing the results
-To reproduce the results of MeaningfulSampling method on LIME with:
+To reproduce the results of FaithfulXAI method on LIME with:
 
 1- Linear Regression as interpretable model run:
 ```
