@@ -7,7 +7,7 @@ Peyman Rasouli and Ingrid Chieh Yu, ["Meaningful Data Sampling for a Faithful Lo
 # Setup
 1- Clone the repository using HTTP/SSH:
 ```
-git clone https://github.com/peymanras/FaithfulXAI
+git clone https://github.com/peymanrasouli/FaithfulXAI
 ```
 2- Create a conda virtual environment:
 ```
