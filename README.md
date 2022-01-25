@@ -1,4 +1,4 @@
-# FaithfulXAI
+# MDS
 
 This repository contains the implementation source code of the following paper:
 
@@ -18,23 +18,23 @@ Bibtex:
 # Setup
 1- Clone the repository using HTTP/SSH:
 ```
-git clone https://github.com/peymanrasouli/FaithfulXAI
+git clone https://github.com/peymanrasouli/MDS
 ```
 2- Create a conda virtual environment:
 ```
-conda create -n FaithfulXAI python=3.6
+conda create -n MDS python=3.6
 ```
 3- Activate the conda environment: 
 ```
-conda activate FaithfulXAI
+conda activate MDS
 ```
-4- Standing in FaithfulXAI directory, install the requirements:
+4- Standing in MDS directory, install the requirements:
 ```
 pip install -r requirements.txt
 ```
 
 # Reproducing the results
-To reproduce the results of FaithfulXAI method on LIME with:
+To reproduce the results of MDS method on LIME with:
 
 1- Linear Regression as interpretable model run:
 ```
