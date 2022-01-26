@@ -4,7 +4,7 @@ This repository contains the implementation source code of the following paper:
 
 [Meaningful Data Sampling for a Faithful Local Explanation Method](https://link.springer.com/chapter/10.1007/978-3-030-33607-3_4)
 
-Bibtex:
+BibTeX:
 
     @inproceedings{rasouli2019meaningful,
                    title={Meaningful Data Sampling for a Faithful Local Explanation Method},
