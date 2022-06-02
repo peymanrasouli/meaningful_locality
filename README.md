@@ -1,4 +1,4 @@
-# MDS
+# Meaningful Locality
 
 This repository contains the implementation source code of the following paper:
 
@@ -18,23 +18,23 @@ BibTeX:
 # Setup
 1- Clone the repository using HTTP/SSH:
 ```
-git clone https://github.com/peymanrasouli/MDS
+git clone https://github.com/peymanrasouli/meaningful-locality
 ```
 2- Create a conda virtual environment:
 ```
-conda create -n MDS python=3.6
+conda create -n meaningful-locality python=3.6
 ```
 3- Activate the conda environment: 
 ```
-conda activate MDS
+conda activate meaningful-locality
 ```
-4- Standing in MDS directory, install the requirements:
+4- Standing in meaningful-locality directory, install the requirements:
 ```
 pip install -r requirements.txt
 ```
 
 # Reproducing the results
-To reproduce the results of MDS method on LIME with:
+To reproduce the results of meaningful-locality method on LIME with:
 
 1- Linear Regression as interpretable model run:
 ```
